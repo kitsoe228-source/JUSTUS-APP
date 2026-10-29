@@ -1,7 +1,0 @@
-echo "# JUSTUS-APP" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/kitsoe228-source/JUSTUS-APP.git
-git push -u origin main
