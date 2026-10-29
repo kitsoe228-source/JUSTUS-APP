@@ -15,10 +15,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'npm'
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install dependencies and generate lock file
+        run: |
+          npm install
 
-      # သင့်ရဲ့ build လုပ်မယ့် command တွေကို ဒီအောက်မှာ ဆက်ထည့်ပါ
+      # သင့်ရဲ့ APK build လုပ်မယ့် command တွေကို ဒီအောက်မှာ ဆက်ထည့်ပါ
       # ဥပမာ - run: npm run build
